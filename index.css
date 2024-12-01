@@ -131,3 +131,53 @@ main ul {
 .gizli { 
     visibility: hidden;
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:left
+
+}
+.footer-items { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 2rem;
+}
+.footer-items nav {
+    display: flex;
+    gap: 2rem;
+}
+.footer-items nav a {
+    text-decoration: none;
+    color: black;
+}
+.follow-us {
+    display: flex;
+    flex-direction: column;
+   width: 150px;
+}
+.social-icons {
+    display: flex;
+    width: 40px;
+    flex-wrap: nowrap;
+    display: flex; 
+    flex-direction: row;
+
+}
+.social-icons img {
+    width: 2rem;
+    
+}
+.apps {
+    display: flex;
+    flex-direction: column;
+  width: 200px;
+}
+.store-icons img{ 
+    width: 150px;
+   display: flex;
+    flex-direction: row;
+
+}
