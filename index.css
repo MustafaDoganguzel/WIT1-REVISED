@@ -57,6 +57,77 @@ font-family: Helvetica ;
 }
 .maturity-rating {
     border: 0.5px solid gray;
-    font-size: 0.8rem;
+    font-size: smaller;
     color: gray;
+    
+}
+.description {
+    font-family: Helvetica ;
+    color: brown;
+    gap: 0px;
+}
+main ul { 
+    color: brown;
+    font-family: Helvetica ;
+    font-size: 1rem;
+    list-style-type: circle;
+}
+.play-btn { 
+    width: 100px;
+    height: 50px;
+    
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+.play-btn:hover{
+    background-color: rgb(24, 74, 173);
+    color: whitesmoke;
+}
+
+
+.ortala { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.popular-movies { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+   text-align: left;
+}
+.film1, .film2, .film3 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    border: 1px solid black;
+    width: 400px;
+    height: 150px;
+    padding: 1rem;
+}
+
+.play-btn1 { 
+    width: 100px;
+    height: 50px;
+    
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+.play-btn1:hover{
+    background-color: rgb(24, 74, 173);
+    color: whitesmoke;
+}
+.recommended { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+   text-align: left;
+}
+.gizli { 
+    visibility: hidden;
 }
