@@ -1,0 +1,62 @@
+*{
+    margin: 10px 0px 10px 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.logo { 
+    width: 200px;
+}
+header nav { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;   
+}
+header nav a { 
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin:  0 1rem;
+}
+.search { 
+    display: flex;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+.main-film {
+font-family: Helvetica ;
+
+}
+.icerik {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    
+}
+.im-yildiz {
+    color: yellowgreen;
+
+}
+.rating {
+    font-family: Helvetica ;
+}
+.maturity-rating {
+    border: 0.5px solid gray;
+    font-size: 0.8rem;
+    color: gray;
+}
