@@ -98,15 +98,18 @@ main ul {
     justify-content: space-between;
     margin: 2rem;
    text-align: left;
+   overflow-x: auto;
+
 }
 .film1, .film2, .film3 {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     border: 1px solid black;
-    width: 400px;
     height: 150px;
     padding: 1rem;
+    flex: 0 0 30%;
+    margin: 1rem;
 }
 
 .play-btn1 { 
@@ -135,24 +138,28 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align:left
+    gap: 1.5rem;
+    padding: 2rem;
 
 }
-.footer-items { 
+.footer-items {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    max-width: 768px;
+
+}
+
+
+.footer-items nav{
+    display: flex;
+    gap: 2rem; 
     
-    margin: 2rem;
 }
-.footer-items nav {
-    display: flex;
-    gap: 2rem;
-}
-.footer-items nav a {
+.footer-items nav a{
     text-decoration: none;
     color: black;
 }
+
 .follow-us {
     display: flex;
     flex-direction: column;
@@ -161,23 +168,21 @@ footer {
 .social-icons {
     display: flex;
     width: 40px;
-    flex-wrap: nowrap;
-    display: flex; 
-    flex-direction: row;
+    white-space: nowrap;
+    gap: 2rem;
 
 }
 .social-icons img {
-    width: 2rem;
+    width: 3rem;
     
 }
 .apps {
     display: flex;
     flex-direction: column;
-  width: 200px;
+    white-space: nowrap;
 }
-.store-icons img{ 
-    width: 150px;
-   display: flex;
-    flex-direction: row;
+.store-icons img{
+    width: 10rem;
+    margin-top: 0.5rem;
 
 }
