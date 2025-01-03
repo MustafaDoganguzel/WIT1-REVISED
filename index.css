@@ -1,5 +1,10 @@
-*{
+* {
     margin: 10px 0px 10px 0px;
+}
+
+body {
+    background-color: #121212;
+    color: whitesmoke;
 }
 
 header {
@@ -8,132 +13,159 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid black;
 }
-.logo { 
+
+.logo {
     width: 200px;
 }
-header nav { 
+
+header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 1rem;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
-header nav a { 
-    color: black;
+
+header nav a {
+    color: whitesmoke;
     text-decoration: none;
     display: flex;
-    margin:  0 1rem;
+    margin: 0 1rem;
 }
-.search { 
+
+.search {
     display: flex;
     align-items: center;
 }
+
 main {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin: 2rem;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     padding: 2rem;
 }
+
 .main-film {
-font-family: Helvetica ;
+    font-family: Helvetica;
+
+
 
 }
+
 .icerik {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
     margin-left: 1.5rem;
-    
-}
-.im-yildiz {
-    color: yellowgreen;
 
 }
-.rating {
-    font-family: Helvetica ;
+
+.im-yildiz {
+    color: whitesmoke;
+
 }
+
+.rating {
+    font-family: Helvetica;
+}
+
 .maturity-rating {
     border: 0.5px solid gray;
     font-size: smaller;
-    color: gray;
-    
+    color: whitesmoke;
+
 }
+
 .description {
-    font-family: Helvetica ;
-    color: brown;
+    font-family: Helvetica;
+    color: whitesmoke;
     gap: 0px;
 }
-main ul { 
-    color: brown;
-    font-family: Helvetica ;
+
+main ul {
+    color: whitesmoke;
+    font-family: Helvetica;
     font-size: 1rem;
     list-style-type: circle;
 }
-.play-btn { 
+
+.play-btn {
     width: 100px;
     height: 50px;
-    
+
     background-color: orangered;
     color: white;
     border-radius: 10px;
+    border: none;
 }
-.play-btn:hover{
-    background-color: rgb(24, 74, 173);
+
+.play-btn:hover {
+    background-color: rgb(72, 174, 21);
     color: whitesmoke;
 }
 
 
-.ortala { 
+.ortala {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem;
 }
-.popular-movies { 
+
+.popular-movies {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem;
-   text-align: left;
-   overflow-x: auto;
+    text-align: left;
+    overflow-x: auto;
 
 }
-.film1, .film2, .film3 {
+
+.film1,
+.film2,
+.film3 {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     height: 150px;
     padding: 1rem;
     flex: 0 0 30%;
     margin: 1rem;
 }
 
-.play-btn1 { 
+.play-btn1 {
     width: 100px;
     height: 50px;
-    
     background-color: orangered;
     color: white;
     border-radius: 10px;
+    border: none;
 }
-.play-btn1:hover{
-    background-color: rgb(24, 74, 173);
+
+.play-btn1:hover {
+    background-color: rgb(72, 174, 21);
     color: whitesmoke;
 }
-.recommended { 
+
+.recommended {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem;
-   text-align: left;
+    text-align: left;
+    overflow-x: auto;
+
 }
-.gizli { 
+
+.gizli {
     visibility: hidden;
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -142,6 +174,7 @@ footer {
     padding: 2rem;
 
 }
+
 .footer-items {
     display: flex;
     flex-direction: column;
@@ -150,21 +183,23 @@ footer {
 }
 
 
-.footer-items nav{
+.footer-items nav {
     display: flex;
-    gap: 2rem; 
-    
+    gap: 2rem;
+
 }
-.footer-items nav a{
+
+.footer-items nav a {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
 }
 
 .follow-us {
     display: flex;
     flex-direction: column;
-   width: 150px;
+    width: 150px;
 }
+
 .social-icons {
     display: flex;
     width: 40px;
@@ -172,17 +207,31 @@ footer {
     gap: 2rem;
 
 }
+
 .social-icons img {
     width: 3rem;
-    
+
 }
+
 .apps {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
 }
-.store-icons img{
+
+.store-icons img {
     width: 10rem;
     margin-top: 0.5rem;
 
+}
+
+@media (max-width: 980px) {
+
+    body {
+        max-width: 980px;
+    }
+
+    .apps {
+        visibility: hidden;
+    }
 }
